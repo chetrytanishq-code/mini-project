@@ -1,52 +1,39 @@
-/***Problem Title: ADTU Canteen Bill Analyzer
-Story:
+/*problem statement: 
+🧮 Question 3: The Carpenter’s Measurement Problem
 
-At Assam Down Town University (ADTU), the hostel canteen records the daily food expenses of each student.
-Each row in a 2D array represents a student, and each column represents a day of the day week (from Monday to Friday).
-The value bill[i][j] is the amount in ₹ spent by student i on day j.
-You, as the Canteen Manager of ADTU, have been asked to analyze the weekly canteen records.
+Problem Story:
+A carpenter named Mohan is cutting two wooden planks of different lengths.
+He wants to cut both planks into smaller equal pieces without any leftover wood.
+To do this, he needs to find the greatest common divisor (GCD) of the two lengths.
+He also wants to know the least common multiple (LCM) — the smallest length at which both planks can be exactly aligned if placed end to end repeatedly.
 
-🧠 Your Tasks:
+Can you help Mohan calculate both the GCD and LCM of the given two lengths?
+Task:
+Write a program that takes two integers as input and:
 
-Given the 2D array bill, write a program to:
+Calculates the GCD (Greatest Common Divisor) of the two numbers.
 
-Print the total amount spent by each student in the week.
-
-Find the day with the highest total collection.
-
-Identify the student (or students) who spent the most overall.
-
+Calculates the LCM (Least Common Multiple) of the two numbers.
 Input Format:
+The first line contains two integers — the lengths of the two planks.
 
-The first line contains two integers:
-n → number of students
-m → number of days
-
-The next n lines each contain m integers — the daily bill amounts.
-
-📤 Output Format:
-
-Print each student’s total weekly spending.
-
-Print which day had the highest total collection.
-
-Print which student(s) spent the most overall.
-Input :
-4 5
-30 40 50 60 20
-10 20 30 10 40
-50 60 40 30 20
-20 10 10 20 30
-
+Output Format:
+Print two lines:
+First line: "GCD = <value>"
+Second line: "LCM = <value>"
+Example 1:
+Input: 12 18
 Output:
+GCD = 6
+LCM = 36
 
-Student 1 total: ₹200
-Student 2 total: ₹110
-Student 3 total: ₹200
-Student 4 total: ₹90
+Example 2:
+Input: 8 20
+Output:
+GCD = 4
+LCM = 40
 
-Highest collection on Day 2
-Highest spender: Student 1 and Student 3*/
+*/
 
 //code
 
